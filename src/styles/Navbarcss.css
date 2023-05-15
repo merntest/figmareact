@@ -1,0 +1,32 @@
+#navbar-bg {
+margin-left: 50px;
+position: relative;
+left: 180px;
+
+
+
+  
+}
+#navbar-bg img {
+   margin-top: 8px;
+    margin-left: 80px;
+   
+}
+#bg-nb {
+    background-color: #0066C3;
+    border-radius: 0px 0px 44px 44px;
+    
+}
+.navlink{
+margin: 20px;
+
+
+
+}
+.linktext{
+    font-style: Inter;
+    font-weight:400;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #FFFFFF;
+}
