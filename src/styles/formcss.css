@@ -20,6 +20,9 @@ body {
 }
 .icon-sv{
     float: left;
+    
+    
+   
   
 }
 .textc{
@@ -276,3 +279,21 @@ margin-right: -330%;
 .first-bg {
  margin-top: -230px;
 }
+.icon-sv svg{
+ animation-name: fcol;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+
+}
+@keyframes fcol {
+  from {
+    fill-opacity:0;
+    stroke:  black ;
+    
+    
+  }
+  to {fill: black;
+    stroke:  black ;
+  }
+}
+

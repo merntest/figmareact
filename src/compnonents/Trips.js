@@ -6,13 +6,23 @@ import img3 from '../images/firstcard.png';
 import arrowr from '../images/arrowr.png';
 const Trips = () =>{
 return (
-    <div className='cs'>
+    <div className='cs' >
         <p className='als'>Dont miss these Round Trip Fares <button className='btals'> See More</button></p> 
          <Carousel className>
       <Carousel.Item className='csi'>
         <div className='view'>
       <Card className='cr' style={{ width: '35rem' }}>
       <Card.Img variant="top" src={img3} className='img-br' />
+      <div className='overlay'>
+        <div className='cl'>
+       <div className='dis'>
+         20%
+       </div>
+       <div className='off'>
+        OFF
+       </div>
+       </div>
+      </div>
       <Card.Body>
         <Card.Title className='ct'>London <img src={arrowr} id='arrow-pl'></img> manila
         </Card.Title>
@@ -26,7 +36,10 @@ return (
         </Card.Text>
         </div>
         <div className='sibut'>
-        <Button className='butbn' variant="primary">Book Now</Button>
+        <Button type='button' className='butbn' variant="primary">Book Now</Button>
+        
+        
+        
         </div>
         </div>
         
@@ -34,6 +47,16 @@ return (
     </Card>
     <Card className='cp' style={{ width: '22rem' }}>
       <Card.Img variant="top" src={img3} className='img-br2'  />
+      <div className='overlay'>
+        <div className='cl'>
+       <div className='dis'>
+         20%
+       </div>
+       <div className='off'>
+        OFF
+       </div>
+       </div>
+      </div>
       <Card.Body>
       <Card.Title className='ct'>London <img src={arrowr} id='arrow-pl'></img> manila
         </Card.Title>
@@ -46,13 +69,23 @@ return (
         </Card.Text>
         </div>
         <div className='sibut' id='idbuts'>
-        <Button className='butbn' variant="primary">Book Now</Button>
+        <Button type='button'  className='butbn' variant="primary">Book Now</Button>
         </div>
         
       </Card.Body>
     </Card>
     <Card className='cp' style={{ width: '22rem' }}>
       <Card.Img variant="top" src={img3} className='img-br2'  />
+      <div className='overlay'>
+        <div className='cl'>
+       <div className='dis'>
+         20%
+       </div>
+       <div className='off'>
+        OFF
+       </div>
+       </div>
+      </div>
       <Card.Body>
       <Card.Title className='ct'>London <img src={arrowr} id='arrow-pl'></img> manila
         </Card.Title>
@@ -65,7 +98,7 @@ return (
         </Card.Text>
         </div>
         <div className='sibut' id='idbuts'>
-        <Button className='butbn' variant="primary">Book Now</Button>
+        <Button type='button'  className='butbn' variant="primary">Book Now</Button>
         </div>
         
       </Card.Body>
@@ -78,9 +111,29 @@ return (
         <div className='view'>
       <Card className='cr' style={{ width: '35rem' }}>
       <Card.Img variant="top" src={img3} className='img-br' />
+      <div className='overlay'>
+        <div className='cl'>
+       <div className='dis'>
+         20%
+       </div>
+       <div className='off'>
+        OFF
+       </div>
+       </div>
+      </div>
       <Card.Body>
         <Card.Title className='ct'>London <img src={arrowr} id='arrow-pl'></img> manila
         </Card.Title>
+        <div className='overlay'>
+        <div className='cl'>
+       <div className='dis'>
+         20%
+       </div>
+       <div className='off'>
+        OFF
+       </div>
+       </div>
+      </div>
         <div>
         <div className='sibutl'> 
         <Card.Text className='subtext'>
@@ -91,7 +144,7 @@ return (
         </Card.Text>
         </div>
         <div className='sibut'>
-        <Button className='butbn' variant="primary">Book Now</Button>
+        <Button type='button'  className='butbn' variant="primary">Book Now</Button>
         </div>
         </div>
         
@@ -102,6 +155,16 @@ return (
       <Card.Body>
       <Card.Title className='ct'>London <img src={arrowr} id='arrow-pl'></img> manila
         </Card.Title>
+        <div className='overlay'>
+        <div className='cl'>
+       <div className='dis'>
+         20%
+       </div>
+       <div className='off'>
+        OFF
+       </div>
+       </div>
+      </div>
         <div className='sibutl'> 
         <Card.Text className='subtext'>
         Round trip | 13 March -  26th March
@@ -111,7 +174,7 @@ return (
         </Card.Text>
         </div>
         <div className='sibut' id='idbuts'>
-        <Button className='butbn' variant="primary">Book Now</Button>
+        <Button type='button'  className='butbn' variant="primary">Book Now</Button>
         </div>
         
       </Card.Body>
@@ -121,6 +184,16 @@ return (
       <Card.Body>
       <Card.Title className='ct'>London <img src={arrowr} id='arrow-pl'></img> manila
         </Card.Title>
+        <div className='overlay'>
+        <div className='cl'>
+       <div className='dis'>
+         20%
+       </div>
+       <div className='off'>
+        OFF
+       </div>
+       </div>
+      </div>
         <div className='sibutl'> 
         <Card.Text className='subtext'>
         Round trip | 13 March -  26th March
@@ -130,7 +203,7 @@ return (
         </Card.Text>
         </div>
         <div className='sibut' id='idbuts'>
-        <Button className='butbn' variant="primary">Book Now</Button>
+        <Button  className='butbn' variant="primary">Book Now</Button>
         </div>
         
       </Card.Body>
@@ -140,6 +213,7 @@ return (
       </Carousel.Item>
       
     </Carousel>
+    <p className='subinc'>* All fares above were last found on . Apr 30 , 2023 at 2:25 PM . Fares are one way or round trip as indicated above. Fares incl. all fuel surchages .<span className='un'>taxes & fees</span> and our <span className='un'> services fees.</span> Displayed fares are based on historical data , are subject to change and cannot be guaranteed at the time of booking.<span className='un'>See all booking terms and conditions .</span>  Ref: tW3JFNLIEUSBYUq3Fq7cjw</p>
     </div>
 )
 }

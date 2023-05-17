@@ -5,6 +5,9 @@ import Banner from './compnonents/Banner';
 import Form from './compnonents/Formnew';
 import Services from './compnonents/Services';
 import Trips from './compnonents/Trips';
+import Destinations from './compnonents/Destinations';
+import Callus from './compnonents/Callus';
+import Testslider from './compnonents/Testslider';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <Form/>
       <Services/>
       <Trips/>
+      <Destinations/>
+      <Callus/>
+
     </div>
   );
 }
