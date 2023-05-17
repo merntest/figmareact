@@ -1,0 +1,20 @@
+.ft {
+    background-color:#0066c3;
+}
+.texp{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42.36px;
+    text-align: left;
+    color: #FFFFFFFF;
+}
+.textp2{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-align: left;
+    color: #FFFFFFFF;
+    margin-top: -1%;
+}

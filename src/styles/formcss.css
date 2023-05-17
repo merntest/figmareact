@@ -21,6 +21,8 @@ body {
 .icon-sv{
     float: left;
     
+  
+    
     
    
   
@@ -284,16 +286,21 @@ margin-right: -330%;
  animation-duration: 4s;
  animation-iteration-count: infinite;
 
+
 }
+
+
 @keyframes fcol {
   from {
     fill-opacity:0;
     stroke:  black ;
+   
     
     
   }
   to {fill: black;
     stroke:  black ;
+    
   }
 }
 

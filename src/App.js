@@ -8,6 +8,7 @@ import Trips from './compnonents/Trips';
 import Destinations from './compnonents/Destinations';
 import Callus from './compnonents/Callus';
 import Testslider from './compnonents/Testslider';
+import Footer from './compnonents/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Trips/>
       <Destinations/>
       <Callus/>
+      <Footer/>
 
     </div>
   );
