@@ -18,3 +18,19 @@
     color: #FFFFFFFF;
     margin-top: -1%;
 }
+.card-set{
+    margin: 4%;
+    margin-top: 2%;
+}
+.card-agent{
+    border-radius: 40px;
+    float: left;
+    margin-left: 2%;
+}
+.agent-img{
+    border-radius: 40px;
+    
+}
+#icon-d{
+    background-color: #0066c3;
+}
